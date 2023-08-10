@@ -7,8 +7,8 @@ const user = {
 };
 
 user.isActive = false;
-console.log(user); // *
+console.log(user); // *"cc@gmail.com", false
 user = {};
-console.log(user); // **
+console.log(user); // **Type Error
 
 ```
