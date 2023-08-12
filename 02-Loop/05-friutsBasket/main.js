@@ -19,6 +19,6 @@ do
     if(value ==1)fruits[key] = value;
     else if(value>1) fruits[`${key}s`] = value;
 
-
+ 
 
 }while(key !== TERMINATE && value !== TERMINATE);
